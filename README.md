@@ -54,7 +54,7 @@ Change the line 3 of the file in `~/catkin_ws/src/aeng_563/lidar_localizer/launc
 Open a terminal and use the command below:
 
 ```
-cd ~/loc_ws
+cd ~/catkin_ws
 source devel/setup.bash
 roslaunch lidar_localizer ndt_mapping.launch
 ```
