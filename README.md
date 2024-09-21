@@ -1,10 +1,10 @@
-# cee298_localization_mapping
+# aeng_563_localization_mapping
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 [![ROS Version](https://img.shields.io/badge/ROS-Noetic-green)](https://wiki.ros.org/noetic)
 
-This the example code for lab6: mapping and localization.
+This the example code for project 1: mapping and localization.
 
 ## How to use
 
@@ -24,10 +24,10 @@ sudo apt-get install pcl-tools
 
 ```
 cd ~
-mkdir -p loc_ws/src
-cd loc_ws/src
-git clone https://github.com/xiaxin2000/cee298_localization_mapping_1.git
-cd ~/loc_ws
+mkdir -p catkin_ws/src
+cd catkin_ws/src
+git clone https://github.com/xiaxin2000/aeng_563_localization.git
+cd ~/catkin_ws
 catkin_make
 ```
 
@@ -39,7 +39,7 @@ catkin_make
 
 - Point cloud map sample: [map.pcd](https://drive.google.com/file/d/1YDWAhN4uz1tXbDw4xwanHIIWhBYTaNpI/view?usp=sharing)
 
-Then, save the ROSBag and point cloud map into `~/loc_ws`
+Then, save the ROSBag and point cloud map into `~/catkin_ws`
 
 ## Demo 1: Mapping
 
@@ -47,7 +47,7 @@ Then, save the ROSBag and point cloud map into `~/loc_ws`
 
 ### Step 1
 
-Change the line 3 of the file in `~/catkin_ws_cee298_localization_mapping/src/lidar_localizer/launch/ndt_mapping.launch` to your own workspace. 
+Change the line 3 of the file in `~/catkin_ws/src/aeng_563/lidar_localizer/launch/ndt_mapping.launch` to your own workspace. 
 
 ### Step 2
 
@@ -102,14 +102,14 @@ You will see:
 
 ### Step 1
 
-Change the line 10 of the file in `~/catkin_ws_cee298_localization_mapping/src/lidar_localizer/launch/ndt_matching.launch` to your own workspace. 
+Change the line 10 of the file in `~/catkin_ws/src/aeng_563/lidar_localizer/launch/ndt_matching.launch` to your own workspace. 
 
 ### Step 2
 
 Open a terminal and use the command below:
 
 ```
-cd ~/ catkin_ws_cee298_localization_mapping
+cd ~/ catkin_ws
 source devel/setup.bash
 roslaunch lidar_localizer ndt_matching.launch
 ```
@@ -119,7 +119,7 @@ roslaunch lidar_localizer ndt_matching.launch
 Open another terminal:
 
 ```
-cd ~/loc_ws
+cd ~/catkin_ws
 rosbag play -r 0.2 2023-03-08-18-32-45.bag
 ```
 

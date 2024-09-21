@@ -7,7 +7,7 @@
   <arg name="step_size" default="0.1" />
   <arg name="trans_eps" default="0.01" />
   <arg name="filter_res" default="2" />
-  <arg name="pcd_map_filename" default="/home/carma/CEE_298_Mapping/map.pcd" />
+  <arg name="pcd_map_filename" default="/home/xinxia/catkin_ws/map.pcd" />
 
   <arg name="output_tf_frame_id" default="rslidar"/>
 

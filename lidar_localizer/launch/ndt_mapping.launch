@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="pcd_map_filename" default="/home/xinxia/loc_ws/map1.pcd" />
+  <arg name="pcd_map_filename" default="/home/xinxia/catkin_ws/map1.pcd" />
   <arg name="max_iter" default="30" />
   <arg name="ndt_res" default="1.0" />
   <arg name="step_size" default="0.1" />
