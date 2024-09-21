@@ -68,7 +68,7 @@ You will see:
 Open another terminal:
 
 ```bash
-cd ~/low_ws
+cd ~/catkin_ws
 rosbag play -r 0.2 2023-03-08-18-32-45.bag
 ```
 
