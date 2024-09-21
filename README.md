@@ -127,10 +127,3 @@ You will see the following results:
 
 ![](./figs/loc3.png)
 
-## Contributors
-
-This tutorial is mainly supported by [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/) and it's used as the example code for CEE 298.
-
-- Xin Xia([Github](https://github.com/xiaxin2000))
-- Zhaoliang Zheng([Github](https://github.com/zhz03))
-
