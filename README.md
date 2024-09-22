@@ -26,6 +26,7 @@ sudo apt-get install pcl-tools
 cd ~
 mkdir -p catkin_ws/src
 cd catkin_ws/src
+git clone https://github.com/ros-drivers/velodyne.git
 git clone https://github.com/xiaxin2000/aeng_563_localization.git
 cd ~/catkin_ws
 catkin_make
